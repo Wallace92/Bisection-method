@@ -2,17 +2,16 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 class Bisection:
-    # Funkcja dla ktorej liczymy miejsca zerowe
+    # Function for which the bisecion method operates
     def funkcja(self, x):
         return 2*x**3 + 3*x **2 + 3 *x + 2
 
     def bis(self, a, b):
 
-
         roz = []
 
         for i in range(0,10):
-            # Sprawdzamy warunek miejsca zerowego
+            # Sprawdzamy warunek miejsca zerowego 
             if (self.funkcja(a) * self.funkcja(b) > 0):
                 break
 
