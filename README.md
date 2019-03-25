@@ -6,7 +6,7 @@ The bisection method is a root-finding method that applies to any continuous fun
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <script type="text/javascript" async
+ 
 </script>
 </head>
 <body>
