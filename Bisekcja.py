@@ -1,10 +1,12 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+
 class Bisection:
-    # Function for which the bisecion method operates
-    def funkcja(self, x):
-        return 2*x**3 + 3*x **2 + 3 *x + 2
+    # Function for which the Bisection method operates
+
+    def equation(self, x):
+        return -x**4 + 6*x**3 - 12*x **2 + 3 *x + 5
 
     def bis(self, a, b):
 
@@ -12,14 +14,14 @@ class Bisection:
 
         for i in range(0,10):
             # Sprawdzamy warunek miejsca zerowego 
-            if (self.funkcja(a) * self.funkcja(b) > 0):
+            if (self.equation(a) * self.equation(b) > 0):
                 break
 
             x1 = (a + b) / 2
 
-            if (self.funkcja(x1) == 0):
+            if (self.equation(x1) == 0):
                 break
-            elif (self.funkcja(x1) * self.funkcja(a) < 0):
+            elif (self.equation(x1) * self.equation(a) < 0):
                 b = x1;
                 roz.append(b)
             else:
@@ -44,7 +46,7 @@ print (rozw)
 x = np.linspace(-5,5, 40)
 y = []
 for i in x:
-    y.append(Bisection().funkcja(i))
+    y.append(Bisection().equation(i))
 
 rozw = list(rozw)
 zero = np.zeros(len(rozw))
