@@ -6,16 +6,16 @@
 
 </head>
 <body>
- In Class Bisection are defined three functions: <br>
- The first "equation" contains equation for which the root will b
+ The program contains three functions: <br>
   
 <ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul>
-<p>
+  <li>"equation" with the solved equation in current case </li>
+  <p>
   $$ f(x) = 2*x^3 + 3*x^2 + 3*x + 2$$
 </p>
+  <li>"bisection" the bisection algorithm that looking forward the roots at some interval with precision defied by number of iterations</li>
+  <li>"interval" defines how dense the interval it is and perform the bisecion algorithm on each segment</li>
+</ul>
+Finally the roots are presented using matplotlib with beatiful latex graphics. The roots are marked with big doots and the values are printes in the console.
 </body>
 </html>
