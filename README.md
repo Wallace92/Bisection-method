@@ -6,14 +6,11 @@ The bisection method is a root-finding method that applies to any continuous fun
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>MathJax example</title>
   <script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async>
 </script>
 </head>
 <body>
 <p>
- 
   $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
 </p>
 </body>
