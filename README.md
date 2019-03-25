@@ -13,7 +13,7 @@ The bisection method is a root-finding method that applies to any continuous fun
 </head>
 <body>
 <p>
-  When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
+ 
   $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
 </p>
 </body>
