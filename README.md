@@ -9,7 +9,7 @@
  The program contains three functions: <br>
   
 <ul>
-  <li>"equation" with the solved equation in current case </li>
+  <li>"equation" with the solved equation in this case </li>
   <p>
   $$ f(x) =  6x^3 - 12x^2 - 3x + 5$$
 </p>
