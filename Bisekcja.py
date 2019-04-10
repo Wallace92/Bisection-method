@@ -58,6 +58,13 @@ for i in X:
 root = list(root)
 y_zero = np.zeros(len(root))
 
+size = 14
+# Tex operation included
+plt.rc('text', usetex=True)
+plt.rc('font', family='serif')
+plt.title(r'$ f(x) = 6x^3 - 12x^2 - 3x + 5 $', fontsize=size - 1)
+plt.xlabel(r'$x$', fontsize=size)
+plt.ylabel(r'$f(x)$', fontsize=size)
 plt.plot(root, y_zero, 'o', ms=10)
 plt.plot(X, y)
 plt.axis([a_initial, b_initial, min(y), max(y)+2])
